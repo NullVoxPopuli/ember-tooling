@@ -2,6 +2,7 @@
 
 TODO:
  - add gifs of all the toolings
+ - pick a target audience (new devs, consultants, etc)
  - better descriptions
  - write more professionally
  - consider splitting into multiple blog posts / documents for the other resistance areas
@@ -21,13 +22,14 @@ Good, worthwhile tools can be fairly difficult to find (and also very subjective
 
 - [ember-tabs](https://atom.io/packages/ember-tabs)  
 this isn't an ember-specific package as all it does is let you search for files in the same folder as your currently focussed file. Highly recommended for any project (including react, rails, dotnet, etc ... _anything_)
-- [ember-snippets](https://atom.io/packages/ember-snippets)  
-simple package that includes snippets for ember, ember-data, and handlebars. saves you seconds!
 
 - [ide-ember](https://atom.io/packages/ide-ember)  
   ember language server support. This is crucial for handlebars templates. ide-typescript can handle all the ts/js code.
 
 - [?language-ember-htmlbars](https://atom.io/packages/language-ember-htmlbars)
+
+Snippets:
+I highly recommend against using any snippets package (for any stack, as well). These can get out of date and can lead developers astray. It's best to use the built in [CLI generators](https://ember-cli.com/generators-and-blueprints). The blueprint and generator system is quite powerful (you can even make your own blueprints for whatever your company needs).
 
 #### General Utilities
 - [atom-ide-ui](https://atom.io/packages/atom-ide-ui), [ide-css](https://atom.io/packages/ide-css), [ide-docker](https://atom.io/packages/ide-docker), [ide-typescript](https://atom.io/packages/ide-typescript)  
@@ -46,6 +48,22 @@ this provides a number of case conversions (such as `camelCase` to `PascalCase`)
 
 - [highlight-column](https://atom.io/packages/highlight-column)  
 highlights the column at the cursor position. helps with finding your cursor in a large file.
+
+
+## VSCode
+
+- [vscode-ember](https://marketplace.visualstudio.com/items?itemName=emberjs.vscode-ember)  
+language server (shares same base code as the atom ember language server)
+
+- [ember-related-files](https://marketplace.visualstudio.com/items?itemName=josa.ember-related-files)
+
+- [ember-syntax](https://marketplace.visualstudio.com/items?itemName=dhedgecock.ember-syntax)  
+syntax highlighting for templates (and inline-templates)
+
+- [Ember CLI in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=felixrieseberg.vsc-ember-cli)  
+incrementally execute ember-cli commands with suggestions via the command popup panel.
+
+
 
 ## References
 
